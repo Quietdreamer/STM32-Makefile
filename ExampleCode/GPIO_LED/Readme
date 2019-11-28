@@ -1,0 +1,6 @@
+1.Download the STM32 Standard Peripheral Libraries from the offical website:
+  https://www.st.com/en/embedded-software/stm32-standard-peripheral-libraries.html
+2. Unpack it.
+3. Move configure.sh、Makefile、User\(including all the file in it) to the libraries root directory.
+4. run in a terminal in the libraries root directory: bash configure.sh and input all the necessary parameters of your board.
+5. Then connect to your borad, in the above terminal type make && make download
