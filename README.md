@@ -19,7 +19,7 @@ This Makefile aims at teaching you how to arrange your projects and compile it t
 1. 从官方网站下载对应的固件库
  https://www.st.com/en/embedded-software/stm32-standard-peripheral-libraries.html
 2. 将 固件库解压并放到某一位置，将ld脚本从/Project/xxTemplate/TrueSTUDIO/STMxx/xxFLASH_ld复制到根目录,如果大规模使用，需要自己写个链接脚本
-3. 将 configure.h Makefile 及自己的代码(代码需在User下）复制到根目录/User/Projects/your Code, 如果还有子目录，则需要改动Makeflie。你如果有更好的建议，欢迎告诉我。
+3. 将 configure.h Makefile 及自己的代码(代码需在User下/User/Projects/your Code）复制到根目录, 如果还有子目录，则需要改动Makeflie。你如果有更好的建议，欢迎告诉我。
 4. 此处打开一个终端并运行：bash ./configure.sh, 程序会提示你输入与开发板和调试器有关的参数。
 5. 再输入: make && make download
 6. 大功告成，欢呼一下。
