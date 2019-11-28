@@ -26,3 +26,5 @@ This Makefile aims at teaching you how to arrange your projects and compile it t
         修该Makefile: TARGET ARCH MCU Openocd_Interf Openocd_Target LD_FLASH，必要时候一些c文件也要排除在外。
 5. 再输入: make && make download
 6. 大功告成，欢呼一下。
+通过的亮灯项目，基于STM324F429 CMSIS-DAP调试器
+链接: https://pan.baidu.com/s/1TNuqInLO_oRSZYOHNb3ggQ 提取码: e1tp 
