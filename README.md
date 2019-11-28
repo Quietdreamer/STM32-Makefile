@@ -20,7 +20,7 @@ This Makefile aims at teaching you how to arrange your projects and compile it t
 
 1. 从官方网站下载对应的固件库
  https://www.st.com/en/embedded-software/stm32-standard-peripheral-libraries.html
-2. 将 固件库解压并放到某一位置，将ld脚本从/Project/xxTemplate/TrueSTUDIO/STMxx/xxFLASH_ld复制到根目录,如果大规模使用，需要自己写个链接脚本
+2. 将 固件库解压并放到某一位置，将ld脚本从/Project/xxTemplate/TrueSTUDIO/STMxx/xxFLASH_ld复制到根目录,新建一个build目录,如果大规模使用，需要自己写个链接脚本
 3. 将Makefile 及自己的代码(代码需在User下/User/Projects/your Code）复制到根目录, 如果还有子目录，则需要改动Makeflie。你如果有更好的建议，欢迎告诉我。
 4. 重要，修改Flash.ld: _estack RAM FLASH CCMRAM
         修该Makefile: TARGET ARCH MCU Openocd_Interf Openocd_Target LD_FLASH，必要时候一些c文件也要排除在外。
