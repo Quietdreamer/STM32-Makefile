@@ -5,7 +5,7 @@ This Makefile aims at teaching you how to arrange your projects and compile it t
 # STM32-Makefile-Simple Chinese
 使用完全开源免费的工具搭建STM32开发环境，工具有Gcc、Make、Openocd等。Makefile会告诉你怎么组织项目并且怎样编译以获得正确的结果。
 
-how to use it(怎样使用）
+#how to use it(怎样使用）
 
 1. Download the STM32 Standard Peripheral Libraries from the offical website:
   https://www.st.com/en/embedded-software/stm32-standard-peripheral-libraries.html
@@ -13,6 +13,8 @@ how to use it(怎样使用）
 3. Move configure.sh、Makefile、User which ist in examplecode, to the libraries root directory.
 4. run in a terminal in the libraries root directory: bash configure.sh and input all the necessary parameters of your board.
 5. Then connect to your borad, in the above terminal type make && make download
+
+中文教程
 
 1. 从官方网站下载对应的固件库
  https://www.st.com/en/embedded-software/stm32-standard-peripheral-libraries.html
